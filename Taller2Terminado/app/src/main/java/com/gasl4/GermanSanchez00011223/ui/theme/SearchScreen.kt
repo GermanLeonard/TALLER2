@@ -1,4 +1,4 @@
-package com.gasl4.myapplication.ui.theme
+package com.gasl4.GermanSanchez00011223.ui.theme
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Text

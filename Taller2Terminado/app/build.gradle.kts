@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.gasl4.myapplication"
+    namespace = "com.gasl4.GermanSanchez00011223"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.gasl4.myapplication"
+        applicationId = "com.gasl4.GermanSanchez00011223"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

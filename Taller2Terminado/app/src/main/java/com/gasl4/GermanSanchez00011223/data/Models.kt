@@ -1,4 +1,4 @@
-package com.gasl4.myapplication.data
+package com.gasl4.GermanSanchez00011223.data
 
 
 data class Restaurant(

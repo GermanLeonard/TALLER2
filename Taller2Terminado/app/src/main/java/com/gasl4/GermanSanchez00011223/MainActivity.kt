@@ -1,15 +1,14 @@
-package com.gasl4.myapplication
+package com.gasl4.GermanSanchez00011223
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.Scaffold
-import androidx.compose.runtime.Composable
 import androidx.navigation.compose.rememberNavController
-import com.gasl4.myapplication.navigation.AppNavigation
-import com.gasl4.myapplication.ui.theme.components.BottomNavigationBar
-import com.gasl4.myapplication.ui.theme.MyApplicationTheme
+import com.gasl4.GermanSanchez00011223.navigation.AppNavigation
+import com.gasl4.GermanSanchez00011223.ui.theme.components.BottomNavigationBar
+import com.gasl4.GermanSanchez00011223.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

@@ -1,4 +1,4 @@
-package com.gasl4.myapplication.ui.components
+package com.gasl4.GermanSanchez00011223.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -12,15 +12,12 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.gasl4.myapplication.data.Restaurant
+import com.gasl4.GermanSanchez00011223.data.Restaurant
 
 @Composable
 fun RestaurantItem(restaurant: Restaurant, onClick: () -> Unit) {
     Card(
-        modifier = Modifier
-            .padding(8.dp)
-            .width(200.dp)
-            .clickable { onClick() },
+        modifier = Modifier.padding(8.dp).width(200.dp).clickable { onClick() },
         shape = RoundedCornerShape(10.dp)
     ) {
         Column {

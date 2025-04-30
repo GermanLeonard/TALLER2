@@ -1,4 +1,4 @@
-package com.gasl4.myapplication.ui.theme.components
+package com.gasl4.GermanSanchez00011223.ui.theme.components
 
 
 import androidx.compose.material3.*
@@ -15,7 +15,7 @@ fun BottomNavigationBar(navController: NavController) {
     NavigationBar {
         items.forEach { screen ->
             NavigationBarItem(
-                label = { Text(screen.replaceFirstChar { it.uppercaseChar() }) },
+                label = { Text(screen) },
                 selected = currentRoute == screen,
                 onClick = { navController.navigate(screen) },
                 icon = { /* */ }
